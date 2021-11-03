@@ -14,7 +14,7 @@ pic1 = loadImage("../2-1595002667.png"); // 320x320, Square
 //
 //variable populations
 rectXPic1 = displayWidth*1/5;
-rectYPic1 = displayHeight*11/20;/
+rectYPic1 = displayHeight*11/20;
 rectWidthPic1 = displayWidth*3/5;
 rectHeightPic1 = displayHeight*9/20;
 pic1ImageWidthRatio = 320/320 ;
