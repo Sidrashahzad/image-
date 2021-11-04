@@ -4,7 +4,7 @@
 PImage pic;
 float rectXPic, rectYPic, rectWidthPic, rectHeightPic;
 float picImageWidthRatio, picImageHeightRatio;
-float picX, picY, picWidth ,picHeight;
+float picX, picY, picWidth, picHeight ;
 //
 //Geometry
 fullScreen();//displayWidth,displayHeight //size(800,600);
@@ -18,7 +18,7 @@ rectYPic = displayHeight*11/20;
 rectWidthPic = displayWidth*3/5;
 rectHeightPic = displayHeight*9/20;
 picImageWidthRatio = 320/320 ;
-//pic1ImageHeightRatio = 320.0/320.0;
+picImageHeightRatio = 320.0/320.0;
 picX = rectXPic ;
 picY = rectYPic ;
 picWidth = rectWidthPic*rectWidthPic;
@@ -29,4 +29,4 @@ picHeight = rectHeightPic*picImageHeightRatio;
 rect(rectXPic, rectYPic, rectWidthPic, rectHeightPic);
 //
 //Printing Images
-image(pic, picX, picY, picWidth);
+image(pic, picX, picY, picWidth, picHeight);
